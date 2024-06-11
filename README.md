@@ -50,15 +50,6 @@ The UK Crime's Visualizer is a Streamlit web application that visualizes crime d
 ![Screenshot1](path/to/screenshot1.png)
 ![Screenshot2](path/to/screenshot2.png)
 
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Submit a pull request.
 
 ## License
 

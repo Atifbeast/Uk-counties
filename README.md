@@ -34,19 +34,6 @@ The UK Crime's Visualizer is a Streamlit web application that visualizes crime d
     pip install -r requirements.txt
     ```
 
-4. **Set Up Streamlit Secrets:**
-    Create a `.streamlit` folder in the root of your project and add a `secrets.toml` file with your Google Sheets API credentials and the necessary sheet URLs for each county.
-    ```toml
-    [secrets]
-    avon_somerset = "<YOUR_AVON_SOMERSET_SHEET_URL>"
-    cambridgeshire = "<YOUR_CAMBRIDGESHIRE_SHEET_URL>"
-    durhum = "<YOUR_DURHUM_SHEET_URL>"
-    lincolnshire = "<YOUR_LINCOLNSHIRE_SHEET_URL>"
-    london = "<YOUR_LONDON_SHEET_URL>"
-    north_yorkshire = "<YOUR_NORTH_YORKSHIRE_SHEET_URL>"
-    thames_valley = "<YOUR_THAMES_VALLEY_SHEET_URL>"
-    ```
-
 ## Usage
 
 1. **Run the Application:**

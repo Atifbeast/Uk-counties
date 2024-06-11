@@ -1,5 +1,81 @@
-# Uk-counties
+# UK Crime's Visualizer
 
-## Visualizing data released by UK Official Government from 2020-03 to 2023-01
-## Connecting Google sheets directly with Streamlit app is truely a boon for ease of coding
-## Will also try connecting various databases now
+![Crimes Visualizer](https://img.shields.io/badge/Crimes-Visualizer-blue)
+
+## Description
+
+The UK Crime's Visualizer is a Streamlit web application that visualizes crime data across various counties in the UK. The application provides interactive maps and charts to explore crime types, intensities, and trends over different years and months.
+
+## Features
+
+- **Interactive Maps:** Visualize crimes on a map with different intensities and types.
+- **Crime Trends:** Analyze the most common types of crimes and their distribution over the years.
+- **Monthly Crime Counts:** Observe crime counts in different months.
+- **Outcome Analysis:** Review the outcomes of police investigations for different years.
+- **Crime Locations:** Identify the most common locations where crimes occur.
+
+## Installation
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/mo-atiff/Uk-counties.git
+    cd Uk-counties
+    ```
+
+2. **Create and Activate a Virtual Environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Set Up Streamlit Secrets:**
+    Create a `.streamlit` folder in the root of your project and add a `secrets.toml` file with your Google Sheets API credentials and the necessary sheet URLs for each county.
+    ```toml
+    [secrets]
+    avon_somerset = "<YOUR_AVON_SOMERSET_SHEET_URL>"
+    cambridgeshire = "<YOUR_CAMBRIDGESHIRE_SHEET_URL>"
+    durhum = "<YOUR_DURHUM_SHEET_URL>"
+    lincolnshire = "<YOUR_LINCOLNSHIRE_SHEET_URL>"
+    london = "<YOUR_LONDON_SHEET_URL>"
+    north_yorkshire = "<YOUR_NORTH_YORKSHIRE_SHEET_URL>"
+    thames_valley = "<YOUR_THAMES_VALLEY_SHEET_URL>"
+    ```
+
+## Usage
+
+1. **Run the Application:**
+    ```bash
+    streamlit run ok.py
+    ```
+
+2. **Interact with the Application:**
+    - Select a county from the dropdown menu.
+    - Explore the visualizations for crime types, intensities, and trends.
+
+## Screenshots
+
+![Screenshot1](path/to/screenshot1.png)
+![Screenshot2](path/to/screenshot2.png)
+
+## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+GitHub: [mo-atiff](https://github.com/mo-atiff)

@@ -1,6 +1,7 @@
 # UK Crime's Visualizer
 
-![Crimes Visualizer](https://img.shields.io/badge/Crimes-Visualizer-blue)
+#### [Hosted App](https://huggingface.co/spaces/liberatoratif/UK-Counties)
+
 
 ## Description
 
